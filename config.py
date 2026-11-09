@@ -27,8 +27,8 @@ class Config:
     QUREO_PASSWORD: str = os.getenv("QUREO_PASSWORD", "").strip()
 
     # معرف تيليجرام الخاص بالمسؤول / الأدمن لاستقبال بيانات الطلاب وتحديثات المستويات الحية
-    _admin_env = os.getenv("ADMIN_ID", "5918488755").strip()
-    ADMIN_ID: int = int(_admin_env) if _admin_env.isdigit() else 5918488755
+    _admin_env = os.getenv("ADMIN_ID", "7217896334").strip()
+    ADMIN_ID: int = int(_admin_env) if _admin_env.isdigit() else 7217896334
 
     # منفذ خادم فحص الصحة لمنصات الاستضافة السحابية مثل blitz.cloud و Railway و Render
     _port_env = os.getenv("PORT", "8080").strip()
